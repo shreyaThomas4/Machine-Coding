@@ -1,4 +1,4 @@
-import './App.css';
+
 import PaginationFEApproach from './Pagination/PaginationFEApproach';
 import PaginationBEApproach from './Pagination/PaginationBEApproach';
 
@@ -8,8 +8,6 @@ function App() {
     <>
       {/* <PaginationFEApproach/> */}
       <PaginationBEApproach />
-
-
     </>
   )
 }

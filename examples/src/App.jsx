@@ -2,6 +2,7 @@
 import PaginationFEApproach from './Pagination/PaginationFEApproach';
 import PaginationBEApproach from './Pagination/PaginationBEApproach';
 import  ProgressBar  from './ProgressBar/ProgressBar';
+import Toast from './Toast/Toast';
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* <PaginationFEApproach/> */}
       {/* <PaginationBEApproach /> */}
-      <ProgressBar progress={80}/>
+      {/* <ProgressBar progress={80}/> */}
+      <Toast/>
     </>
   )
 }
